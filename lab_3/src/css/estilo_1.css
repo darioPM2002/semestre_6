@@ -1,0 +1,89 @@
+body {
+  background-color: #1717FE;
+  background-image: url("../assets/bl.gif");
+  background-position: center center; 
+  background-repeat: no-repeat;       
+  background-size: auto;              
+  height: 100vh;
+  margin: 0;
+}
+
+
+
+.liquid-glass {
+  width: 420px;
+  padding: 40px 30px;
+  border-radius: 24px;
+
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow:
+    0 10px 40px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4);
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.liquid-glass form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.liquid-glass input {
+  width: 85%;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.25);
+  color: white;
+  outline: none;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.liquid-glass input::placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.liquid-glass input:focus {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
+}
+
+.liquid-glass button {
+  width: 60%;
+  padding: 12px;
+  margin-top: 18px;
+  border: none;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.liquid-glass button:hover {
+  background: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.liquid-glass h3 {
+  margin-top: 25px;
+}
+
+.liquid-glass p {
+  margin: 4px 0;
+  font-size: 14px;
+  opacity: 0.95;
+  text-align: center;
+}
