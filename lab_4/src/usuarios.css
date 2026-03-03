@@ -1,0 +1,64 @@
+body {
+  background-color: #f4f6f9;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.banorte-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+}
+
+.banorte-title {
+  color: #E30613;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.btn-banorte {
+  background-color: #E30613;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-weight: 600;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.btn-banorte:hover {
+  background-color: #b8000f;
+}
+
+.table-banorte thead {
+  background-color: #E30613;
+  color: white;
+}
+
+.table-banorte tbody tr:hover {
+  background-color: #f9d6d9;
+  transition: 0.2s ease;
+}
+
+.form-control {
+  border-radius: 8px !important;
+  border: 1px solid #ddd !important;
+}
+
+.form-control:focus {
+  border-color: #E30613 !important;
+  box-shadow: 0 0 0 0.15rem rgba(227, 6, 19, 0.25) !important;
+}
+
+.modal-content {
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+
+.modal-header {
+  background-color: #E30613;
+  color: white;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
