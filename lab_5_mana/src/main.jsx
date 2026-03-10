@@ -5,11 +5,11 @@ import App from './App.jsx'
 import { Usuarios } from './usuarios.jsx'
 import { UsuariosManual } from './login_manual.jsx'
 import { UsuariosIA } from './login_IA.jsx'
-import PaisesList from './Proyectos.jsx'
+import ProyectosList from './Proyectos.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
 
-   <PaisesList></PaisesList>
+   <ProyectosList></ProyectosList>
   </StrictMode>,
 )
